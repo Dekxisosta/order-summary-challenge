@@ -1,0 +1,38 @@
+
+/* ===== BG TEXT GLOBAL  ===== */
+:root{
+    --color-bg: hsl(225, 100%, 98%) ;
+}
+
+/* ===== PRIMARY TEXT GLOBAL  ===== */
+:root{
+    --color-primary-text:hsl(223, 47%, 23%);
+    --color-primary-text-hover:hsl(224, 23%, 55%);
+}
+
+/* ===== SECONDARY TEXT GLOBAL  ===== */
+:root{
+    --color-secondary-text:hsl(224, 23%, 55%);
+}
+
+/* ===== BUTTON CSS GLOBAL  ===== */
+:root{
+    --color-btn-primary:hsl(245, 75%, 52%);
+    --color-btn-primary-hover:hsl(224, 23%, 55%);
+    --color-btn-text: hsl(0, 0%, 100%);
+    --color-btn-text-hover:hsl(225, 100%, 98%);
+}
+
+/* ===== BORDERLESS BUTTON CSS GLOBAL  ===== */
+:root{
+    --color-borderless-v1-btn:hsl(245, 75%, 52%);
+    --color-borderless-v1-btn-hover:hsl(224, 23%, 55%);
+    --color-borderless-v2-btn:hsl(223, 47%, 23%);
+    --color-borderless-v2-btn-hover:hsl(224, 23%, 55%);
+}
+
+/* ===== ORDER-SUMMARY GLOBAL  ===== */
+:root{
+    --color-bg-component: hsl(0, 0%, 100%);
+    --color-plan:hsl(225, 100%, 98%);
+}
