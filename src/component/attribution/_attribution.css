@@ -1,0 +1,42 @@
+.attribution{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-weight: 500;
+    justify-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    align-self: center;
+    max-width: 600px;
+    min-width: fit-content;
+}
+
+@media (min-width: 1024px) {
+    .attribution{
+        gap: 30px;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+.attribution img{
+    border-radius: 50%;
+    object-fit: contain;
+}
+.attribution div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(214, 214, 214, 0.719);
+    transition: all 0.3s ease;
+    min-width: 300px;
+}
+.attribution div:hover{
+    transform: scale(102%);
+    box-shadow: 1px 1px 20px 1px rgb(214, 214, 214);
+}
+.attribution a{
+    color: rgb(0,0,0);
+    font-weight: 900;
+}

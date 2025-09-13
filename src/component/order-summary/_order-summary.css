@@ -1,0 +1,13 @@
+.order-summary{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin: 20px;
+    height: fit-content;
+    max-width: 400px;
+    aspect-ratio: 1/2;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 10px rgb(229, 239, 240);
+}
+

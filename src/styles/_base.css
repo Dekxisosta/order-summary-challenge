@@ -1,4 +1,9 @@
 body{
+    visibility: hidden;
     background-color: var(--color-bg);
     font-family: 'Red Hat Display';
+}
+
+body.loaded{
+    visibility: visible;
 }
