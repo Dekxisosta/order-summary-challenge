@@ -1,7 +1,7 @@
 
 /* ===== BG TEXT GLOBAL  ===== */
 :root{
-    --color-bg: hsl(225, 100%, 98%) ;
+    --color-bg: hsl(225, 100%, 94%) ;
 }
 
 /* ===== PRIMARY TEXT GLOBAL  ===== */
@@ -18,7 +18,7 @@
 /* ===== BUTTON CSS GLOBAL  ===== */
 :root{
     --color-btn-primary:hsl(245, 75%, 52%);
-    --color-btn-primary-hover:hsl(224, 23%, 55%);
+    --color-btn-primary-hover:hsl(245, 83%, 68%);
     --color-btn-text: hsl(0, 0%, 100%);
     --color-btn-text-hover:hsl(225, 100%, 98%);
 }
